@@ -6,9 +6,13 @@ Pasos para levantar la App en desarrollo
 docker compose up -d
 ```
 
-2. Renombrar el .env.template  a .env y 
+2. Crear una copia y renombralo el .env.template  a .env y 
 3. Reemplazar las variables de entorno
-4.Ejecutar el SEDD para [crear la base de Datos Local](http://localhost:3000/api/seed)
+4. Ejecutar comando ``` npm instal ```
+5. Ejecutar comando ``` npm run dev ```
+6. Ejecutar comando ``` npx prisma migrate dev  ```
+7. Ejecutar comando ``` npx prisma generate```
+8. Ejecutar el SEDD para [crear la base de Datos Local](http://localhost:3000/api/seed)
 
 # Prisma Commands
 ```
