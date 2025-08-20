@@ -3,8 +3,7 @@
 //Mas bien ahora hay q definir cual quiere q sea cacheada
 // export const dynamic = 'auto'
 // export const revalidate = 0
-
-
+export const dynamic = 'force-static'
 
 
 import { NewTodo } from "@/components";
