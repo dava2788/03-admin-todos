@@ -14,6 +14,10 @@ docker compose up -d
 7. Ejecutar comando ``` npx prisma generate```
 8. Ejecutar el SEDD para [crear la base de Datos Local](http://localhost:3000/api/seed)
 
+# Nota:
+usuario: test1@google.com
+password: 123456
+
 # Prisma Commands
 ```
 npx prisma init

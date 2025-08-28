@@ -22,6 +22,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  //Ultimo archivo para extender Clases de Auth.js
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts","types.d.ts"],
   "exclude": ["node_modules"]
 }
